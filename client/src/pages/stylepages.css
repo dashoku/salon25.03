@@ -1,0 +1,261 @@
+body,
+html {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FF6C86;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: auto;
+    margin-bottom: 50px;
+}
+
+/* Стили для карточки */
+.auth-card {
+    width: 600px;
+    padding: 50px;
+    background-color: #F9EFED;
+    border: 2px solid #FCDDDB;
+    border-radius: 20px;
+
+}
+
+/* Стили для заголовка */
+.auth-title {
+    margin: auto;
+    margin-bottom: 50px;
+    color: #FF6C86;
+}
+
+/* Стили для формы */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стили для ввода email и пароля */
+.auth-input {
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 2px solid #FCDDDB;
+    border-radius: 13.3px;
+}
+
+/* Стили для строки с ссылками */
+.auth-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #1D1D1D;
+}
+
+.auth-button {
+    height: 40px;
+    margin-top: 20px;
+    padding: 0 15px;
+    background-color: #FF9BB3;
+    color: #FFFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.auth-button:hover,
+.auth-button:active,
+.auth-button:visited {
+    background-color: #FF9BB3;
+    color: #FFFF;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+.profile-container {
+    background: #F9EFED;
+    color: #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: auto;
+    margin-bottom: 5%;
+}
+
+.u-prof-container {
+    margin: 5%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.profile-row {
+    margin: 20px 0;
+}
+
+.profile-p {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.prof-button {
+    height: 40px;
+    margin: 30px;
+    padding: 0 15px;
+    background-color: #FF9BB3;
+    color: #FFFF;
+    text-decoration: none;
+    align-self: center;
+}
+
+.prof-button:hover,
+.prof-button:active,
+.prof-button:visited {
+    background-color: #ff829f;
+}
+
+
+/* ButtonGroup.css */
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10%;
+    background-color: #ffffff;
+}
+
+.custom-button {
+    width: 100%;
+    margin-bottom: 6%;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC7D1;
+    color: #1D1D1D;
+}
+
+/* Hover effect */
+.custom-button:hover,
+.custom-button:active,
+.custom-button:visited {
+    background-color: #ff829f;
+    color: white;
+}
+
+/*ADMIN*/
+
+.adm-container {
+    background: #F9EFED;
+    color: #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.adm-table {
+    margin: 1%;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 98%;
+    display: inline-block;
+}
+
+
+.add-button {
+    height: fit-content;
+    width: fit-content;
+    background-color: #FFC7D1;
+    border-color: #FFC7D1;
+    color: #1D1D1D;
+    text-decoration: none;
+    align-self: center;
+}
+
+.add-button:hover,
+.add-button:active,
+.add-button:visited {
+    background-color: #ff829f;
+    border-color: #FFC7D1;
+}
+
+.tab-button-container {
+    display: flex;
+    align-items: center;
+    max-width: 98%;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.tab-custom-button {
+    width: 100%;
+    margin: 1%;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC7D1;
+    color: #1D1D1D;
+}
+
+.btn-save {
+    background-color: #ff829f;
+    color: white;
+}
+
+.btn-cancel {
+    background-color: #FFC7D1;
+    color: #1D1D1D;
+}
+
+.tab-custom-button:hover,
+.tab-custom-button:active,
+.tab-custom-button:visited {
+    background-color: #ff829f;
+    color: white;
+}
+
+.edit-button,
+.delete-button,
+.edit-button:active,
+.delete-button:active,
+.edit-button:visited,
+.delete-button:visited {
+    color: #1D1D1D;
+    border-color: #F9EFED;
+    background-color: #FFC7D1;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    color: #ffffff;
+    border-color: #F9EFED;
+    background-color: #ff829f;
+}
